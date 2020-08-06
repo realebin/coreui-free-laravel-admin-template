@@ -170,7 +170,7 @@
                 <i class="nav-icon icon-star"></i> Pages</a>
               <ul class="nav-dropdown-items">
                 <li class="nav-item">
-                  <a class="nav-link" href="/login" target="_top">
+                  <a class="nav-link" href="{{url('/login')}}" target="_top">
                     <i class="nav-icon icon-star"></i> Login</a>
                 </li>
                 <li class="nav-item">

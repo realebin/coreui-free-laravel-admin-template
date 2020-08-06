@@ -84,7 +84,7 @@
                 <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-star"></use>
               </svg> Pages</a>
             <ul class="c-nav-dropdown-items">
-              <li class="c-nav-item"><a class="c-nav-link" href="/login" target="_top">
+              <li class="c-nav-item"><a class="c-nav-link" href="{{url('/login')}}" target="_top">
                   <svg class="c-nav-icon">
                     <use xlink:href="/assets/icons/coreui/free-symbol-defs.svg#cui-account-logout"></use>
                   </svg> Login</a></li>

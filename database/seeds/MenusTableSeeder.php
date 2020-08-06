@@ -142,7 +142,7 @@ class MenusTableSeeder extends Seeder
             $this->insertLink('admin', 'BREAD',                   '/bread');
             $this->insertLink('admin', 'Email',                   '/mail');
         $this->endDropdown();
-        $this->insertLink('guest', 'Login', '/login', 'cil-account-logout');
+        $this->insertLink('guest', 'Login', url('/login'), 'cil-account-logout');
         $this->insertLink('guest', 'Register', '/register', 'cil-account-logout');
         $this->insertTitle('user,admin', 'Theme');
         $this->insertLink('user,admin', 'Colors', '/colors', 'cil-drop1');
@@ -185,7 +185,7 @@ class MenusTableSeeder extends Seeder
         $this->insertLink('user,admin', 'Widgets', '/widgets', 'cil-calculator');
         $this->insertTitle('user,admin', 'Extras');
         $this->beginDropdown('user,admin', 'Pages', 'cil-star');
-            $this->insertLink('user,admin', 'Login',         '/login');
+            $this->insertLink('user,admin', 'Login',         url('/login'));
             $this->insertLink('user,admin', 'Register',      '/register');
             $this->insertLink('user,admin', 'Error 404',     '/404');
             $this->insertLink('user,admin', 'Error 500',     '/500');
